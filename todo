@@ -1,0 +1,52 @@
+PROBLMS:
+    ✔ p- after mcq generartion options may listed as answers or other, corect option is not showing - fixed with a better prompt creation @done(25-03-22 01:17)
+
+
+app.py:
+    ✔ create basic project structure (hard) @done(25-03-22 00:59)
+    ✔ what if admin have a login and user have another login @done(25-03-22 00:59)
+    ✔ admin create quizzes user attempt quizes @done(25-03-22 00:59)
+    ✔ upadte users.json each time the user take the quiz, to track the user @done(25-03-22 17:43)
+    ✔ module_note.pdf.json --> module_note.json @done(25-03-22 17:58)
+
+quiz.html:
+    ✔ randomize options in quiz.html @done(25-03-22 17:31)
+    ✔ difficulty showing in quiz.html @done(25-03-22 17:24)
+    ✔ submit only after answering everything @done(25-03-22 17:24)
+    ✔ navbar @done(25-03-22 17:31)
+
+user_dashboard.html:
+    ✔ modify UI 1 @done(25-03-22 17:59)
+    ✔ module_note.json -> module_note @done(25-03-23 15:57)
+
+
+
+profile.html:
+    ✔ make it @done(25-03-22 18:31)
+    ✔ show statistics @done(25-03-22 18:31)
+
+
+index.html:
+    ✔ fix ui @done(25-03-22 20:24)
+    ✔ create new user @done(25-03-24 16:25)
+    ✔ integrate landing page created by aman @done(25-03-24 17:14)
+    ☐ style better index.html
+
+
+dashboad.html:
+    ✔ add users link to users.html to show users and their progress @done(25-03-23 15:15)
+    ✔ improve UI @done(25-03a-22 20:30)
+
+    
+
+
+users.html:
+    ✔ make it use nice UI @done(25-03-23 15:19)
+    ✔ show users when clicked show stats @done(25-03-23 15:19)
+
+
+
+all_quizzes.html:
+    ✔ make it @done(25-03-24 21:13)
+    ✔ edit verify upload quiz @done(25-03-24 21:13)
+    ✔ add edit_quizzes.html @done(25-03-24 21:13)
