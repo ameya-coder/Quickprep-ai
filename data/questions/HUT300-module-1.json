@@ -1,114 +1,340 @@
 {
     "questions": [
         {
-            "question": "What is the primary problem faced by societies in terms of production?",
+            "portion_name": "Scarcity and choice",
+            "question": "What is the basic economic problem that arises due to scarcity of resources?",
             "answers": {
-                "a": "How to distribute income",
-                "b": "What goods and services to produce and in what quantities",
-                "c": "How to reduce scarcity",
-                "d": "How to increase consumption"
+                "a": "How to produce goods and services",
+                "b": "How to distribute goods and services",
+                "c": "What goods and services to produce",
+                "d": "All of the above"
             },
-            "correct": "b",
+            "correct": "d",
             "difficulty": "Low"
         },
         {
-            "question": "If a consumer buys 10 units of a product at $10 per unit and 12 units at $9 per unit, calculate the price elasticity of demand.",
+            "portion_name": "Basic economic problems",
+            "question": "Which of the following is a central problem of an economy?",
             "answers": {
-                "a": "0.5",
-                "b": "1.5",
-                "c": "2",
-                "d": "0.25"
+                "a": "What goods and services to produce",
+                "b": "How to produce goods and services",
+                "c": "For whom to produce goods and services",
+                "d": "All of the above"
             },
-            "correct": "b",
-            "difficulty": "Medium"
-        },
-        {
-            "question": "A firm operates on a production possibility curve. If it moves from point A to point B on the curve, what happens to the production of the two goods?",
-            "answers": {
-                "a": "Production of both goods increases",
-                "b": "Production of one good increases and the other decreases",
-                "c": "Production of both goods decreases",
-                "d": "Production of one good increases and the other remains constant"
-            },
-            "correct": "b",
+            "correct": "d",
             "difficulty": "Low"
         },
         {
-            "question": "What is the concept of diminishing marginal utility?",
+            "portion_name": "PPC",
+            "question": "What does the production possibilities curve (PPC) show?",
             "answers": {
-                "a": "The additional utility from consuming a good decreases as consumption increases",
-                "b": "The additional utility from consuming a good increases as consumption increases",
-                "c": "The total utility from consuming a good remains constant",
-                "d": "The total utility from consuming a good decreases as consumption increases"
-            },
-            "correct": "a",
-            "difficulty": "Medium"
-        },
-        {
-            "question": "A consumer has a monthly income of $1000. He spends $500 on food and $300 on clothing. If the price of food increases by 20%, what happens to his consumption of food?",
-            "answers": {
-                "a": "His consumption of food increases",
-                "b": "His consumption of food decreases",
-                "c": "His consumption of food remains constant",
-                "d": "Not enough information to determine"
-            },
-            "correct": "b",
-            "difficulty": "High"
-        },
-        {
-            "question": "What is the concept of consumer surplus?",
-            "answers": {
-                "a": "The additional benefit received by a consumer from buying a good at a price lower than their willingness to pay",
-                "b": "The additional cost incurred by a consumer from buying a good at a price higher than their willingness to pay",
-                "c": "The total benefit received by a consumer from buying a good",
-                "d": "The total cost incurred by a consumer from buying a good"
-            },
-            "correct": "a",
-            "difficulty": "Medium"
-        },
-        {
-            "question": "If the demand for a product is elastic, what happens to the quantity demanded when the price increases by 10%?",
-            "answers": {
-                "a": "The quantity demanded decreases by less than 10%",
-                "b": "The quantity demanded decreases by more than 10%",
-                "c": "The quantity demanded increases by 10%",
-                "d": "The quantity demanded remains constant"
-            },
-            "correct": "b",
-            "difficulty": "High"
-        },
-        {
-            "question": "What is the concept of opportunity cost?",
-            "answers": {
-                "a": "The value of the next best alternative that is given up when a choice is made",
-                "b": "The value of the chosen option",
-                "c": "The cost of producing a good",
-                "d": "The benefit received from consuming a good"
+                "a": "The various combinations of two commodities that can be produced with given resources",
+                "b": "The various combinations of two commodities that can be consumed with given resources",
+                "c": "The various combinations of two commodities that can be produced with latest technology",
+                "d": "The various combinations of two commodities that can be consumed with latest technology"
             },
             "correct": "a",
             "difficulty": "Low"
         },
         {
-            "question": "A firm produces two goods, X and Y. The production possibility curve shows that if the firm produces 10 units of X, it can produce 20 units of Y. If it produces 15 units of X, it can produce 15 units of Y. What is the opportunity cost of producing 5 more units of X?",
+            "portion_name": "Firms and its objectives",
+            "question": "What is the primary objective of a firm?",
             "answers": {
-                "a": "5 units of Y",
-                "b": "10 units of Y",
-                "c": "15 units of Y",
-                "d": "20 units of Y"
+                "a": "To maximize profits",
+                "b": "To maximize sales revenue",
+                "c": "To maximize growth rate",
+                "d": "To maximize consumer satisfaction"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Utility",
+            "question": "What is the want-satisfying capacity of a commodity known as?",
+            "answers": {
+                "a": "Utility",
+                "b": "Usefulness",
+                "c": "Satisfaction",
+                "d": "Pleasure"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Law of diminishing marginal utility",
+            "question": "What happens to the marginal utility of a commodity as the consumer consumes more and more units of it?",
+            "answers": {
+                "a": "It increases",
+                "b": "It decreases",
+                "c": "It remains constant",
+                "d": "It becomes zero"
+            },
+            "correct": "b",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Demand and its determinants",
+            "question": "Which of the following is a determinant of demand?",
+            "answers": {
+                "a": "Price of the commodity",
+                "b": "Price of related goods",
+                "c": "Income of the buyer",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Law of demand",
+            "question": "What is the law of demand?",
+            "answers": {
+                "a": "The quantity demanded of a commodity increases with an increase in its price",
+                "b": "The quantity demanded of a commodity decreases with an increase in its price",
+                "c": "The quantity demanded of a commodity remains constant with a change in its price",
+                "d": "The quantity demanded of a commodity is unrelated to its price"
+            },
+            "correct": "b",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Elasticity of demand",
+            "question": "What is the elasticity of demand?",
+            "answers": {
+                "a": "The responsiveness of the quantity demanded of a commodity to a change in its price",
+                "b": "The responsiveness of the quantity supplied of a commodity to a change in its price",
+                "c": "The responsiveness of the quantity demanded of a commodity to a change in the price of a related good",
+                "d": "The responsiveness of the quantity supplied of a commodity to a change in the price of a related good"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Supply",
+            "question": "What is the supply of a commodity?",
+            "answers": {
+                "a": "The quantity of the commodity that sellers are willing to sell at a given price",
+                "b": "The quantity of the commodity that buyers are willing to buy at a given price",
+                "c": "The quantity of the commodity that is available in the market",
+                "d": "The quantity of the commodity that is produced"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Law of supply",
+            "question": "What is the law of supply?",
+            "answers": {
+                "a": "The quantity supplied of a commodity increases with an increase in its price",
+                "b": "The quantity supplied of a commodity decreases with an increase in its price",
+                "c": "The quantity supplied of a commodity remains constant with a change in its price",
+                "d": "The quantity supplied of a commodity is unrelated to its price"
             },
             "correct": "a",
             "difficulty": "High"
         },
         {
-            "question": "What is the concept of deadweight loss?",
+            "portion_name": "Equilibrium",
+            "question": "What is the equilibrium price of a commodity?",
             "answers": {
-                "a": "The loss of economic efficiency due to a tax or subsidy",
-                "b": "The gain of economic efficiency due to a tax or subsidy",
-                "c": "The loss of economic efficiency due to a change in consumer preferences",
-                "d": "The gain of economic efficiency due to a change in consumer preferences"
+                "a": "The price at which the quantity demanded equals the quantity supplied",
+                "b": "The price at which the quantity demanded is greater than the quantity supplied",
+                "c": "The price at which the quantity demanded is less than the quantity supplied",
+                "d": "The price at which the quantity demanded is unrelated to the quantity supplied"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Changes in demand and supply",
+            "question": "What happens to the equilibrium price and quantity of a commodity when there is an increase in demand?",
+            "answers": {
+                "a": "The equilibrium price and quantity both increase",
+                "b": "The equilibrium price and quantity both decrease",
+                "c": "The equilibrium price increases and the equilibrium quantity decreases",
+                "d": "The equilibrium price decreases and the equilibrium quantity increases"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Consumer surplus and producer surplus",
+            "question": "What is the consumer surplus?",
+            "answers": {
+                "a": "The difference between the maximum price a consumer is willing to pay and the market price",
+                "b": "The difference between the market price and the minimum price a consumer is willing to pay",
+                "c": "The difference between the maximum price a consumer is willing to pay and the minimum price a consumer is willing to pay",
+                "d": "The difference between the market price and the minimum price a producer is willing to accept"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Taxation and deadweight loss",
+            "question": "What is the deadweight loss of taxation?",
+            "answers": {
+                "a": "The loss of economic efficiency due to taxation",
+                "b": "The gain of economic efficiency due to taxation",
+                "c": "The loss of economic efficiency due to lack of taxation",
+                "d": "The gain of economic efficiency due to lack of taxation"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "Which topic is most relevant to portions page?",
+            "answers": {
+                "a": "Scarcity and choice",
+                "b": "Basic economic problems",
+                "c": "PPC",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the most important concept in portions page?",
+            "answers": {
+                "a": "Scarcity",
+                "b": "Choice",
+                "c": "PPC",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "Which of the following is a key concept in portions page?",
+            "answers": {
+                "a": " Opportunity cost",
+                "b": "Production possibility curve",
+                "c": "Scarcity",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the relationship between scarcity and choice?",
+            "answers": {
+                "a": "Scarcity leads to choice",
+                "b": "Choice leads to scarcity",
+                "c": "Scarcity and choice are unrelated",
+                "d": "Scarcity and choice are mutually exclusive"
             },
             "correct": "a",
             "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the significance of PPC in portions page?",
+            "answers": {
+                "a": "It shows the various combinations of two commodities that can be produced",
+                "b": "It shows the various combinations of two commodities that can be consumed",
+                "c": "It shows the relationship between scarcity and choice",
+                "d": "All of the above"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the most important concept in portions page related to firms and their objectives?",
+            "answers": {
+                "a": "Profit maximization",
+                "b": "Sales revenue maximization",
+                "c": "Growth rate maximization",
+                "d": "All of the above"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the relationship between utility and usefulness?",
+            "answers": {
+                "a": "Utility and usefulness are the same",
+                "b": "Utility and usefulness are different",
+                "c": "Utility is a part of usefulness",
+                "d": "Usefulness is a part of utility"
+            },
+            "correct": "b",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the law of diminishing marginal utility?",
+            "answers": {
+                "a": "The marginal utility of a commodity decreases as the consumer consumes more and more units of it",
+                "b": "The marginal utility of a commodity increases as the consumer consumes more and more units of it",
+                "c": "The marginal utility of a commodity remains constant as the consumer consumes more and more units of it",
+                "d": "The marginal utility of a commodity is unrelated to the quantity consumed"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the relationship between demand and supply?",
+            "answers": {
+                "a": "Demand and supply are unrelated",
+                "b": "Demand and supply are inversely related",
+                "c": "Demand and supply are directly related",
+                "d": "Demand and supply are mutually exclusive"
+            },
+            "correct": "c",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the equilibrium price and quantity of a commodity?",
+            "answers": {
+                "a": "The price and quantity at which the quantity demanded equals the quantity supplied",
+                "b": "The price and quantity at which the quantity demanded is greater than the quantity supplied",
+                "c": "The price and quantity at which the quantity demanded is less than the quantity supplied",
+                "d": "The price and quantity at which the quantity demanded is unrelated to the quantity supplied"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the deadweight loss of taxation?",
+            "answers": {
+                "a": "The loss of economic efficiency due to taxation",
+                "b": "The gain of economic efficiency due to taxation",
+                "c": "The loss of economic efficiency due to lack of taxation",
+                "d": "The gain of economic efficiency due to lack of taxation"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "Which topic is most relevant to portions page related to taxation and deadweight loss?",
+            "answers": {
+                "a": "Taxation",
+                "b": "Deadweight loss",
+                "c": "Economic efficiency",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Portions",
+            "question": "What is the significance of portions page in understanding economics?",
+            "answers": {
+                "a": "It helps to understand the basic economic problems",
+                "b": "It helps to understand the production possibility curve",
+                "c": "It helps to understand the relationship between scarcity and choice",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "High"
         }
     ]
 }

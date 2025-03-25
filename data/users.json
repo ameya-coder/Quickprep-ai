@@ -96,6 +96,12 @@
                     "score": 5,
                     "total": 10
                 }
+            ],
+            "HUT300-module-2.json": [
+                {
+                    "score": 12,
+                    "total": 50
+                }
             ]
         }
     }

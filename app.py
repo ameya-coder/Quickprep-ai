@@ -101,89 +101,66 @@ def create_faiss_index(texts):
     vectors = np.random.rand(len(texts), dimension).astype('float32')  # Replace with real embeddings
     index.add(vectors)
     faiss.write_index(index, os.path.join(DATA_FOLDER, 'vector_index.faiss'))
+
+# Generate MCQs using Groq API
 def generate_mcq(text):
     logging.debug(f"Sending text to LLM: {text[:500]}")  # Log first 500 chars for debugging
     headers = {"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"}
-    
-    # Enhanced prompt with clear JSON structure instructions
     prompt = (
-        "Generate a comprehensive quiz with EXACTLY 10 multiple-choice questions in STRICT JSON format. "
-        "JSON STRUCTURE MUST BE:\n"
-        "{\n"
-        "  \"questions\": [\n"
-        "    {\n"
-        "      \"question\": \"Question text\",\n"
-        "      \"answers\": {\n"
-        "        \"a\": \"Option A text\",\n"
-        "        \"b\": \"Option B text\",\n"
-        "        \"c\": \"Option C text\",\n"
-        "        \"d\": \"Option D text\"\n"
-        "      },\n"
-        "      \"correct\": \"Correct option letter (a/b/c/d)\",\n"
-        "      \"difficulty\": \"Low/Medium/High\"\n"
-        "    },\n"
-        "    ... (9 more questions)\n"
-        "  ]\n"
-        "}\n\n"
-        "Guidelines:\n"
-        "- Cover topics from the context\n"
-        "- 4 Low difficulty questions\n"
-        "- 3 Medium difficulty questions\n"
-        "- 3 High difficulty questions\n"
-        "- Include numerical and conceptual questions\n"
-        "- Ensure no duplicate questions\n"
-        "- Numerical questions must show calculation method\n\n"
-        f"Context:\n{text}\n\n"
-        "IMPORTANT: Return ONLY valid JSON. No additional text before or after JSON."
+        "Design a quiz using the context provided multiple-choice questions in JSON format. "
+        "Analyze the 'portions' page first and create quiz using the context provided with, "
+        "Make sure for each 'poprtion_name', 20 multiple-choice questions are included "
+        "Make sure to include 4 answer options (a, b, c, d) for each question using 'answers' as key value. "
+        "Use the following difficulty distribution:\n"
+        "- 4 questions: Low difficulty\n"
+        "- 3 questions: Medium difficulty\n"
+        "- 3 questions: High difficulty\n\n"
+        "Make sure to include correct answer option (a, b, c, d) for each question using 'correct' as key value. "
+        "Make sure to include portion name for each question using 'portion_name' as key value. "
+
+
+        f"Context:\n{text}\n"
+        "Return only a valid JSON object without additional text."
     )
-    
     payload = {
         "model": "llama-3.3-70b-versatile",
         "messages": [
             {"role": "system", "content": "You are an expert economics MCQ generator. Generate precise, educational multiple-choice questions."},
             {"role": "user", "content": prompt}
         ],
-        "temperature": 0.7,
-        "max_tokens": 2000,
-        "response_format": {"type": "json_object"}  # Explicit JSON request
+        
     }
     
     try:
         response = requests.post("https://api.groq.com/openai/v1/chat/completions", json=payload, headers=headers)
         response_data = response.json()
+        logging.debug(f"LLM Response: {response_data}")  # Log full response
+
+        mcq_text = response_data.get("choices", [{}])[0].get("message", {}).get("content", "{}")
+        if not mcq_text.strip():
+            logging.error("LLM returned an empty response.")
+            return {"error": "LLM returned an empty response."}
+
+        # Ensure proper JSON formatting
+        mcq_text = mcq_text.strip().strip("```json").strip("```")  # Remove Markdown code block formatting
+        mcqs = json.loads(mcq_text)  # Convert string to JSON
         
-        # Extract MCQ text
-        mcq_text = response_data.get("choices", [{}])[0].get("message", {}).get("content", "")
-        
-        # Clean and prepare JSON
-        mcq_text = mcq_text.strip()
-        mcq_text = mcq_text.replace("```json", "").replace("```", "").strip()
-        
-        # Robust JSON parsing with error handling
-        try:
-            mcqs = json.loads(mcq_text)
-        except json.JSONDecodeError as e:
-            logging.error(f"JSON Parsing Error: {e}")
-            logging.error(f"Problematic JSON: {mcq_text}")
-            return {"error": f"Failed to parse JSON: {str(e)}"}
-        
-        # Validate MCQ structure
-        if not isinstance(mcqs, dict) or "questions" not in mcqs:
-            return {"error": "Invalid MCQ JSON structure"}
-        
-        # Ensure exactly 10 questions
-        questions = mcqs.get("questions", [])
-        if len(questions) != 10:
-            return {"error": f"Expected 10 questions, got {len(questions)}"}
+        # Check if the response uses "quiz" instead of "questions"
+        if "quiz" in mcqs and isinstance(mcqs["quiz"], list):
+            mcqs["questions"] = mcqs.pop("quiz")  # Rename "quiz" to "questions"
+
+        # Validate expected keys
+        if "questions" not in mcqs or not isinstance(mcqs["questions"], list):
+            raise ValueError("Invalid JSON format: Missing 'questions' key or incorrect structure.")
         
         return mcqs
     
+    except (json.JSONDecodeError, ValueError) as e:
+        logging.error(f"Failed to parse MCQ response: {e}")
+        return {"error": "Invalid MCQ format"}
     except requests.RequestException as e:
-        logging.error(f"API Request Error: {e}")
-        return {"error": f"API request failed: {str(e)}"}
-    except Exception as e:
-        logging.error(f"Unexpected Error: {e}")
-        return {"error": f"Unexpected error: {str(e)}"}
+        logging.error(f"API request failed: {e}")
+        return {"error": "API request failed"}
 
 
 @app.route('/')

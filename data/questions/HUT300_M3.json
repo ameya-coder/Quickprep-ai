@@ -1,114 +1,220 @@
 {
     "questions": [
         {
-            "question": "In a perfectly competitive market, how many buyers and sellers are there?",
+            "portion_name": "Market Structures",
+            "question": "What are the four types of models of competition?",
+            "difficulty": "Low",
             "answers": {
-                "a": "A few",
-                "b": "Many",
-                "c": "One",
-                "d": "None"
+                "a": "Perfect Competition, Monopoly, Monopolistic Competition, Oligopoly",
+                "b": "Perfect Competition, Monopoly, Monopolistic Competition, Monopsony",
+                "c": "Perfect Competition, Monopoly, Duopoly, Oligopoly",
+                "d": "Perfect Competition, Monopoly, Monopolistic Competition, Perfect Monopoly"
             },
-            "correct": "b",
-            "difficulty": "Low"
+            "correct": "a"
         },
         {
-            "question": "What is the main characteristic of a monopoly?",
+            "portion_name": "Market Structures",
+            "question": "Which type of market structure has a large number of buyers and sellers?",
+            "difficulty": "Low",
+            "answers": {
+                "a": "Monopoly",
+                "b": "Monopolistic Competition",
+                "c": "Perfect Competition",
+                "d": "Oligopoly"
+            },
+            "correct": "c"
+        },
+        {
+            "portion_name": "Market Structures",
+            "question": "What is the main characteristic of a monopoly market structure?",
+            "difficulty": "Low",
             "answers": {
                 "a": "Many buyers and sellers",
                 "b": "One buyer and one seller",
                 "c": "One seller and many buyers",
-                "d": "One seller and one buyer"
+                "d": "Many sellers and one buyer"
             },
-            "correct": "c",
-            "difficulty": "Low"
+            "correct": "c"
         },
         {
-            "question": "In a monopolistically competitive market, what is the main goal of firms?",
+            "portion_name": "Market Structures",
+            "question": "What type of competition is characterized by a few large firms producing a homogeneous or differentiated product?",
+            "difficulty": "Low",
             "answers": {
-                "a": "To minimize profits",
-                "b": "To maximize profits",
-                "c": "To minimize costs",
-                "d": "To maximize costs"
+                "a": "Perfect Competition",
+                "b": "Monopolistic Competition",
+                "c": "Oligopoly",
+                "d": "Monopoly"
             },
-            "correct": "b",
-            "difficulty": "Low"
+            "correct": "c"
         },
         {
-            "question": "What is the main difference between perfect competition and monopolistic competition?",
+            "portion_name": "Perfect Competition",
+            "question": "What is the main characteristic of perfect competition?",
+            "difficulty": "Medium",
             "answers": {
-                "a": "Number of buyers and sellers",
-                "b": "Level of differentiation among products",
-                "c": "Level of entry and exit barriers",
-                "d": "All of the above"
+                "a": "One seller and many buyers",
+                "b": "Many buyers and sellers",
+                "c": "Few sellers and many buyers",
+                "d": "One buyer and one seller"
             },
-            "correct": "b",
-            "difficulty": "Low"
+            "correct": "b"
         },
         {
-            "question": "In an oligopoly, what is the main form of competition among firms?",
+            "portion_name": "Perfect Competition",
+            "question": "What is the demand curve faced by a perfectly competitive firm?",
+            "difficulty": "Medium",
             "answers": {
-                "a": "Price competition",
-                "b": "Non-price competition",
-                "c": "Perfect competition",
-                "d": "Monopolistic competition"
+                "a": "Downward sloping",
+                "b": "Upward sloping",
+                "c": "Horizontal",
+                "d": "Vertical"
             },
-            "correct": "b",
-            "difficulty": "Medium"
+            "correct": "c"
         },
         {
-            "question": "What is the kinked demand curve theory in oligopoly?",
+            "portion_name": "Perfect Competition",
+            "question": "What is the marginal revenue curve for a perfectly competitive firm?",
+            "difficulty": "Medium",
             "answers": {
-                "a": "Firms will always lower their prices to gain market share",
-                "b": "Firms will always raise their prices to maximize profits",
-                "c": "Firms will maintain their prices due to fear of retaliation from competitors",
-                "d": "Firms will always enter into cartel agreements"
+                "a": "Downward sloping",
+                "b": "Upward sloping",
+                "c": "Horizontal",
+                "d": "Vertical"
             },
-            "correct": "c",
-            "difficulty": "Medium"
+            "correct": "c"
         },
         {
-            "question": "What is the main objective of the Competition Commission of India?",
+            "portion_name": "Monopoly",
+            "question": "What is the main characteristic of a monopoly?",
+            "difficulty": "High",
             "answers": {
-                "a": "To promote monopolies",
-                "b": "To regulate competition and protect consumer interests",
-                "c": "To encourage cartel agreements",
-                "d": "To promote perfect competition"
+                "a": "One seller and many buyers",
+                "b": "Many buyers and sellers",
+                "c": "Few sellers and many buyers",
+                "d": "One buyer and one seller"
             },
-            "correct": "b",
-            "difficulty": "Medium"
+            "correct": "a"
         },
         {
+            "portion_name": "Monopoly",
+            "question": "What is the demand curve faced by a monopolist?",
+            "difficulty": "High",
+            "answers": {
+                "a": "Downward sloping",
+                "b": "Upward sloping",
+                "c": "Horizontal",
+                "d": "Vertical"
+            },
+            "correct": "a"
+        },
+        {
+            "portion_name": "Monopolistic Competition",
+            "question": "What is the main characteristic of monopolistic competition?",
+            "difficulty": "High",
+            "answers": {
+                "a": "One seller and many buyers",
+                "b": "Many buyers and sellers",
+                "c": "Few sellers and many buyers",
+                "d": "Many sellers and one buyer"
+            },
+            "correct": "b"
+        },
+        {
+            "portion_name": "Oligopoly",
+            "question": "What is the main characteristic of oligopoly?",
+            "difficulty": "Medium",
+            "answers": {
+                "a": "One seller and many buyers",
+                "b": "Many buyers and sellers",
+                "c": "Few sellers and many buyers",
+                "d": "One buyer and one seller"
+            },
+            "correct": "c"
+        },
+        {
+            "portion_name": "Oligopoly",
+            "question": "What is the kinked demand curve in oligopoly?",
+            "difficulty": "High",
+            "answers": {
+                "a": "A demand curve with a kink at the prevailing price level",
+                "b": "A demand curve with no kink at the prevailing price level",
+                "c": "A demand curve with a kink at the highest price level",
+                "d": "A demand curve with a kink at the lowest price level"
+            },
+            "correct": "a"
+        },
+        {
+            "portion_name": "Pricing Methods",
+            "question": "What is cost-plus pricing?",
+            "difficulty": "Medium",
+            "answers": {
+                "a": "A pricing method where the price is set based on the cost of production plus a markup",
+                "b": "A pricing method where the price is set based on the demand for the product",
+                "c": "A pricing method where the price is set based on the supply of the product",
+                "d": "A pricing method where the price is set based on the competition"
+            },
+            "correct": "a"
+        },
+        {
+            "portion_name": "Pricing Methods",
+            "question": "What is target return pricing?",
+            "difficulty": "Medium",
+            "answers": {
+                "a": "A pricing method where the price is set based on the desired return on investment",
+                "b": "A pricing method where the price is set based on the cost of production",
+                "c": "A pricing method where the price is set based on the demand for the product",
+                "d": "A pricing method where the price is set based on the supply of the product"
+            },
+            "correct": "a"
+        },
+        {
+            "portion_name": "Pricing Methods",
+            "question": "What is penetration pricing?",
+            "difficulty": "Medium",
+            "answers": {
+                "a": "A pricing method where the price is set low to attract customers and gain market share",
+                "b": "A pricing method where the price is set high to maximize profits",
+                "c": "A pricing method where the price is set based on the cost of production",
+                "d": "A pricing method where the price is set based on the demand for the product"
+            },
+            "correct": "a"
+        },
+        {
+            "portion_name": "Pricing Methods",
             "question": "What is predatory pricing?",
+            "difficulty": "High",
             "answers": {
-                "a": "A pricing strategy where a firm sets a high price to maximize profits",
-                "b": "A pricing strategy where a firm sets a low price to drive out competitors",
-                "c": "A pricing strategy where a firm sets a price equal to its marginal cost",
-                "d": "A pricing strategy where a firm sets a price equal to its average revenue"
+                "a": "A pricing method where the price is set low to attract customers and gain market share",
+                "b": "A pricing method where the price is set high to maximize profits",
+                "c": "A pricing method where the price is set below cost to drive out competitors",
+                "d": "A pricing method where the price is set based on the demand for the product"
             },
-            "correct": "b",
-            "difficulty": "High"
+            "correct": "c"
         },
         {
-            "question": "What is the difference between penetration pricing and skimming pricing?",
+            "portion_name": "Pricing Methods",
+            "question": "What is going-rate pricing?",
+            "difficulty": "Medium",
             "answers": {
-                "a": "Penetration pricing is used to maximize profits, while skimming pricing is used to minimize costs",
-                "b": "Penetration pricing is used to enter a new market with a low price, while skimming pricing is used to maximize profits with a high price",
-                "c": "Penetration pricing is used to maximize costs, while skimming pricing is used to minimize profits",
-                "d": "Penetration pricing is used to minimize profits, while skimming pricing is used to maximize costs"
+                "a": "A pricing method where the price is set based on the prevailing market price",
+                "b": "A pricing method where the price is set based on the cost of production",
+                "c": "A pricing method where the price is set based on the demand for the product",
+                "d": "A pricing method where the price is set based on the supply of the product"
             },
-            "correct": "b",
-            "difficulty": "High"
+            "correct": "a"
         },
         {
-            "question": "What is the main characteristic of a natural monopoly?",
+            "portion_name": "Pricing Methods",
+            "question": "What is price skimming?",
+            "difficulty": "Medium",
             "answers": {
-                "a": "High entry barriers and high fixed costs",
-                "b": "Low entry barriers and low fixed costs",
-                "c": "A single firm that produces a unique product",
-                "d": "A market with many buyers and sellers"
+                "a": "A pricing method where the price is set high to maximize profits",
+                "b": "A pricing method where the price is set low to attract customers and gain market share",
+                "c": "A pricing method where the price is set based on the cost of production",
+                "d": "A pricing method where the price is set based on the demand for the product"
             },
-            "correct": "a",
-            "difficulty": "High"
+            "correct": "a"
         }
     ]
 }

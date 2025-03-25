@@ -35,7 +35,7 @@
             
             <div class="text-center mb-5">
                 <button type="submit" class="btn btn-success btn-lg">Save Quiz</button>
-                <a href="/dashboard" class="btn btn-secondary btn-lg ml-3">Back to Dashboard</a>
+                <a href="/all_quizzes" class="btn btn-secondary btn-lg ml-3">Back to Dashboard</a>
             </div>
         </form>
     </div>
@@ -45,12 +45,18 @@
         <div class="question-card mb-4" data-question-index="INDEX">
             <div class="d-flex justify-content-between align-items-center mb-3">
                 <h4>Question <span class="question-number"></span></h4>
-                <div>
-                    <select class="form-control form-control-sm difficulty-select">
-                        <option value="Low">Low</option>
-                        <option value="Medium">Medium</option>
-                        <option value="High">High</option>
-                    </select>
+                <div class="d-flex align-items-center">
+                    <div class="mr-2">
+                        <!-- <label class="small mb-0">Portion Name:</label> -->
+                        <input type="text" class="form-control form-control-sm portion-name" required>
+                    </div>
+                    <div>
+                        <select class="form-control form-control-sm difficulty-select">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             
@@ -116,6 +122,7 @@
             // Add new question button
             $('#add-question-btn').click(function() {
                 addQuestionCard({
+                    portion_name: '',
                     question: '',
                     answers: { a: '', b: '', c: '', d: '' },
                     correct: 'a',
@@ -135,6 +142,7 @@
                 
                 // Collect all questions data
                 const questions = [];
+                
                 $('.question-card').each(function() {
                     const card = $(this);
                     const answersObj = {};
@@ -145,6 +153,7 @@
                     });
                     
                     questions.push({
+                        portion_name: card.find('.portion-name').val(),
                         question: card.find('.question-text').val(),
                         answers: answersObj,
                         correct: card.find('.correct-answer').val(),
@@ -197,6 +206,9 @@
                 
                 // Set question number
                 questionCard.querySelector('.question-number').textContent = questionCount;
+                
+                // Set portion name
+                questionCard.querySelector('.portion-name').value = questionData.portion_name || '';
                 
                 // Set difficulty
                 const difficultySelect = questionCard.querySelector('.difficulty-select');

@@ -1,0 +1,616 @@
+{
+    "questions": [
+        {
+            "portion_name": "Scarcity and choiced",
+            "question": "What is the main problem that arises due to scarcity in an economy?",
+            "answers": {
+                "a": "Unlimited resources",
+                "b": "Unlimited wants",
+                "c": "The problem of choice",
+                "d": "The problem of production"
+            },
+            "correct": "c",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "Which of the following is a result of scarcity?",
+            "answers": {
+                "a": "Abundance of resources",
+                "b": "Unlimited production",
+                "c": "The need for choice",
+                "d": "No economic problems"
+            },
+            "correct": "c",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "What is the term for the study of how people make decisions about how to allocate resources?",
+            "answers": {
+                "a": "Economics",
+                "b": "Business",
+                "c": "Finance",
+                "d": "Accounting"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "Which of the following is an example of a choice that arises due to scarcity?",
+            "answers": {
+                "a": "Choosing between two luxuries",
+                "b": "Choosing between a necessity and a luxury",
+                "c": "Choosing between two necessities",
+                "d": "Having unlimited resources"
+            },
+            "correct": "c",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "What is the opportunity cost of a choice?",
+            "answers": {
+                "a": "The benefit of the choice",
+                "b": "The cost of the choice",
+                "c": "The alternative that is given up",
+                "d": "The resource that is used"
+            },
+            "correct": "c",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "Which of the following is a way to deal with scarcity?",
+            "answers": {
+                "a": "Increasing resources",
+                "b": "Reducing wants",
+                "c": "Making choices",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "What is the term for the study of how scarcity affects the economy?",
+            "answers": {
+                "a": "Microeconomics",
+                "b": "Macroeconomics",
+                "c": "Economics",
+                "d": "Scarcity theory"
+            },
+            "correct": "c",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "Which of the following is a consequence of scarcity?",
+            "answers": {
+                "a": "Unlimited production",
+                "b": "Abundance of resources",
+                "c": "Trade-offs",
+                "d": "No economic problems"
+            },
+            "correct": "c",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "What is the term for the idea that the economy is always seeking to allocate resources in the most efficient way possible?",
+            "answers": {
+                "a": "The invisible hand",
+                "b": "The visible hand",
+                "c": "The market mechanism",
+                "d": "The government"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Scarcity and choice",
+            "question": "Which of the following is an example of how scarcity affects economic decision-making?",
+            "answers": {
+                "a": "A company choosing to produce more of a good because it is scarce",
+                "b": "A consumer choosing to buy a good because it is abundant",
+                "c": "A government choosing to regulate a market because it is scarce",
+                "d": "A business choosing to invest in a new technology because it is abundant"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "What are the three basic economic problems that all societies face?",
+            "answers": {
+                "a": "What to produce, how to produce, and for whom to produce",
+                "b": "What to produce, how to produce, and where to produce",
+                "c": "What to produce, how to produce, and when to produce",
+                "d": "What to produce, how to produce, and why to produce"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "Which of the following is an example of a basic economic problem?",
+            "answers": {
+                "a": "What color to paint a house",
+                "b": "What type of car to buy",
+                "c": "How to allocate resources",
+                "d": "What to eat for breakfast"
+            },
+            "correct": "c",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "What is the term for the problem of deciding what goods and services to produce?",
+            "answers": {
+                "a": "The what problem",
+                "b": "The how problem",
+                "c": "The for whom problem",
+                "d": "The where problem"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "Which of the following is a factor that affects the basic economic problems?",
+            "answers": {
+                "a": "Technology",
+                "b": "Resources",
+                "c": "Population",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "What is the term for the problem of deciding how to produce goods and services?",
+            "answers": {
+                "a": "The how problem",
+                "b": "The what problem",
+                "c": "The for whom problem",
+                "d": "The where problem"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "Which of the following is an example of a solution to the basic economic problems?",
+            "answers": {
+                "a": "A market economy",
+                "b": "A planned economy",
+                "c": "A traditional economy",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "What is the term for the problem of deciding for whom to produce goods and services?",
+            "answers": {
+                "a": "The for whom problem",
+                "b": "The what problem",
+                "c": "The how problem",
+                "d": "The where problem"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "Which of the following is a consequence of not solving the basic economic problems?",
+            "answers": {
+                "a": "Economic growth",
+                "b": "Economic stability",
+                "c": "Economic inefficiency",
+                "d": "Economic equality"
+            },
+            "correct": "c",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "What is the term for the study of how societies solve the basic economic problems?",
+            "answers": {
+                "a": "Economics",
+                "b": "Business",
+                "c": "Finance",
+                "d": "Accounting"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "Which of the following is an example of how the basic economic problems are solved in a market economy?",
+            "answers": {
+                "a": "The government makes all the decisions",
+                "b": "Individuals and businesses make their own decisions",
+                "c": "The community makes all the decisions",
+                "d": "The economy is completely planned"
+            },
+            "correct": "b",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Basic economic problems",
+            "question": "What is the term for the idea that the basic economic problems can be solved through individual decision-making?",
+            "answers": {
+                "a": "The invisible hand",
+                "b": "The visible hand",
+                "c": "The market mechanism",
+                "d": "The government"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What is the PPC?",
+            "answers": {
+                "a": "The production possibilities curve",
+                "b": "The production possibilities frontier",
+                "c": "Both A and B",
+                "d": "Neither A nor B"
+            },
+            "correct": "c",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What does the PPC show?",
+            "answers": {
+                "a": "The different combinations of two goods that can be produced",
+                "b": "The different combinations of two goods that cannot be produced",
+                "c": "The optimal combination of two goods that should be produced",
+                "d": "The worst combination of two goods that should be produced"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What is the shape of the PPC?",
+            "answers": {
+                "a": "Downward sloping and concave",
+                "b": "Upward sloping and convex",
+                "c": "Downward sloping and convex",
+                "d": "Upward sloping and concave"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What does the PPC assume?",
+            "answers": {
+                "a": "Only two goods are produced",
+                "b": "Only one good is produced",
+                "c": "More than two goods are produced",
+                "d": "No goods are produced"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What happens to the PPC when there is technological progress?",
+            "answers": {
+                "a": "The PPC shifts inward",
+                "b": "The PPC shifts outward",
+                "c": "The PPC remains the same",
+                "d": "The PPC disappears"
+            },
+            "correct": "b",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What is the PPC also known as?",
+            "answers": {
+                "a": "The production boundary",
+                "b": "The production frontier",
+                "c": "Both A and B",
+                "d": "Neither A nor B"
+            },
+            "correct": "c",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What does a point inside the PPC represent?",
+            "answers": {
+                "a": "Inefficient production",
+                "b": "Efficient production",
+                "c": "Optimal production",
+                "d": "Maximum production"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "PPC",
+            "question": "What does a point on the PPC represent?",
+            "answers": {
+                "a": "Inefficient production",
+                "b": "Efficient production",
+                "c": "Optimal production",
+                "d": "Maximum production"
+            },
+            "correct": "b",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is a firm?",
+            "answers": {
+                "a": "A business unit that produces goods and services",
+                "b": "A business unit that only produces goods",
+                "c": "A business unit that only produces services",
+                "d": "A business unit that does not produce anything"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is the main objective of a firm?",
+            "answers": {
+                "a": "To maximize profits",
+                "b": "To minimize costs",
+                "c": "To maximize revenues",
+                "d": "To maximize efficiency"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What are the different types of firms?",
+            "answers": {
+                "a": "Sole proprietorship, partnership, and corporation",
+                "b": "Sole proprietorship, partnership, and cooperative",
+                "c": "Corporation, cooperative, and government",
+                "d": "Sole proprietorship, partnership, and government"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is a sole proprietorship?",
+            "answers": {
+                "a": "A business owned by one person",
+                "b": "A business owned by two people",
+                "c": "A business owned by many people",
+                "d": "A business owned by the government"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is a partnership?",
+            "answers": {
+                "a": "A business owned by two or more people",
+                "b": "A business owned by one person",
+                "c": "A business owned by many people",
+                "d": "A business owned by the government"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is a corporation?",
+            "answers": {
+                "a": "A business owned by many people",
+                "b": "A business owned by one person",
+                "c": "A business owned by two people",
+                "d": "A business owned by the government"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is the main advantage of a sole proprietorship?",
+            "answers": {
+                "a": "Easy to start",
+                "b": "Easy to manage",
+                "c": "Easy to finance",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Firms and its objectives",
+            "question": "What is the main disadvantage of a partnership?",
+            "answers": {
+                "a": "Unlimited liability",
+                "b": "Limited liability",
+                "c": "Easy to start",
+                "d": "Easy to manage"
+            },
+            "correct": "a",
+            "difficulty": "High"
+        },
+        {
+            "portion_name": "Utility",
+            "question": "What is utility?",
+            "answers": {
+                "a": "The want-satisfying power of a good or service",
+                "b": "The price of a good or service",
+                "c": "The quantity of a good or service",
+                "d": "The quality of a good or service"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Utility",
+            "question": "What is total utility?",
+            "answers": {
+                "a": "The total satisfaction derived from consuming a good or service",
+                "b": "The total cost of producing a good or service",
+                "c": "The total revenue from selling a good or service",
+                "d": "The total profit from selling a good or service"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Utility",
+            "question": "What is marginal utility?",
+            "answers": {
+                "a": "The additional satisfaction derived from consuming one more unit of a good or service",
+                "b": "The total satisfaction derived from consuming a good or service",
+                "c": "The average satisfaction derived from consuming a good or service",
+                "d": "The total cost of producing a good or service"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Utility",
+            "question": "What is the law of diminishing marginal utility?",
+            "answers": {
+                "a": "The law that states that as the consumption of a good or service increases, the marginal utility decreases",
+                "b": "The law that states that as the consumption of a good or service increases, the marginal utility increases",
+                "c": "The law that states that as the consumption of a good or service decreases, the marginal utility decreases",
+                "d": "The law that states that as the consumption of a good or service decreases, the marginal utility increases"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Utility",
+            "question": "What is the assumption of rationality in the law of diminishing marginal utility?",
+            "answers": {
+                "a": "Consumers are irrational",
+                "b": "Consumers are rational",
+                "c": "Consumers are indifferent",
+                "d": "Consumers are unpredictable"
+            },
+            "correct": "b",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Demand and its determinants",
+            "question": "What is demand?",
+            "answers": {
+                "a": "The quantity of a good or service that consumers are willing and able to buy at a given price",
+                "b": "The quantity of a good or service that producers are willing and able to supply at a given price",
+                "c": "The price of a good or service",
+                "d": "The quality of a good or service"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Demand and its determinants",
+            "question": "What are the determinants of demand?",
+            "answers": {
+                "a": "Price, income, and taste",
+                "b": "Price, income, and advertising",
+                "c": "Price, income, and season",
+                "d": "All of the above"
+            },
+            "correct": "d",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Demand and its determinants",
+            "question": "What is the law of demand?",
+            "answers": {
+                "a": "The law that states that as the price of a good or service increases, the quantity demanded decreases",
+                "b": "The law that states that as the price of a good or service increases, the quantity demanded increases",
+                "c": "The law that states that as the price of a good or service decreases, the quantity demanded decreases",
+                "d": "The law that states that as the price of a good or service decreases, the quantity demanded increases"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Demand and its determinants",
+            "question": "What is a demand schedule?",
+            "answers": {
+                "a": "A table that shows the quantity of a good or service that consumers are willing and able to buy at different prices",
+                "b": "A table that shows the quantity of a good or service that producers are willing and able to supply at different prices",
+                "c": "A graph that shows the quantity of a good or service that consumers are willing and able to buy at different prices",
+                "d": "A graph that shows the quantity of a good or service that producers are willing and able to supply at different prices"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "Supply",
+            "question": "What is supply?",
+            "answers": {
+                "a": "The quantity of a good or service that producers are willing and able to produce and sell at a given price",
+                "b": "The quantity of a good or service that consumers are willing and able to buy at a given price",
+                "c": "The price of a good or service",
+                "d": "The quality of a good or service"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Supply",
+            "question": "What are the determinants of supply?",
+            "answers": {
+                "a": "Price, cost, and technology",
+                "b": "Price, income, and taste",
+                "c": "Price, income, and advertising",
+                "d": "All of the above"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Supply",
+            "question": "What is the law of supply?",
+            "answers": {
+                "a": "The law that states that as the price of a good or service increases, the quantity supplied increases",
+                "b": "The law that states that as the price of a good or service increases, the quantity supplied decreases",
+                "c": "The law that states that as the price of a good or service decreases, the quantity supplied increases",
+                "d": "The law that states that as the price of a good or service decreases, the quantity supplied decreases"
+            },
+            "correct": "a",
+            "difficulty": "Low"
+        },
+        {
+            "portion_name": "Supply",
+            "question": "What is a supply schedule?",
+            "answers": {
+                "a": "A table that shows the quantity of a good or service that producers are willing and able to produce and sell at different prices",
+                "b": "A table that shows the quantity of a good or service that consumers are willing and able to buy at different prices",
+                "c": "A graph that shows the quantity of a good or service that producers are willing and able to produce and sell at different prices",
+                "d": "A graph that shows the quantity of a good or service that consumers are willing and able to buy at different prices"
+            },
+            "correct": "a",
+            "difficulty": "Medium"
+        },
+        {
+            "portion_name": "cx v",
+            "question": "dxc",
+            "answers": {
+                "a": "dc",
+                "b": "dc",
+                "c": "dxc",
+                "d": "dxsc"
+            },
+            "correct": "b",
+            "difficulty": "Medium"
+        }
+    ]
+}
